@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+    android:minHeight="?android:attr/listPreferredItemHeightSmall"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/simplecursortext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        android:textColor="#515151"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:text="Vitus"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/textView266"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#515151"
+            android:text="Mighty"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/textView267"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#515151"
+            android:text="Skorne"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:layout_marginLeft="3dp" />
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/textView268"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#515151"
+            android:text="Praetorian/Warlock"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:layout_marginLeft="3dp" />
+    </LinearLayout>
+
+</LinearLayout>
+
+

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.userdaniel.ironkingdoms.DialogFragments.CharacterInfoDialog"
+    android:orientation="vertical"
+    android:id="@+id/scrollView">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffcdcdcd"
+        android:id="@+id/container">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="DERIVED STATS"
+            android:id="@+id/textView186"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:background="#B7410E"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Armor Set"
+            android:id="@+id/textView188"
+            android:textColor="#515151"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <AutoCompleteTextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/autoCompleteTextView2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#515151" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView190"
+            android:textColor="#515151"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:text="ARM Bonus"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText6"
+            android:textColor="#515151"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:inputType="number"
+            android:imeOptions="actionNext" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="SPD Equipment Mod. (Negative Value)"
+            android:id="@+id/textView244"
+            android:textColor="#515151"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText4"
+            android:textColor="#515151"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:imeOptions="actionNext"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="DEF Equipment Mod. (Negative Value)"
+            android:id="@+id/textView245"
+            android:textColor="#515151"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText7"
+            android:textColor="#515151"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:imeOptions="actionNext"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Misc ARM Modifier"
+            android:id="@+id/textView322"
+            android:textColor="#515151"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText34"
+            android:textColor="#515151"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:imeOptions="actionNext"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView209"
+            android:textColor="#515151"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:text="Shield Modifier"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2"
+            android:textColor="#515151"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:imeOptions="actionNext"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView322"
+            android:textColor="#515151"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:text="Racial DEF Modifier"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText35"
+            android:textColor="#515151"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:imeOptions="actionNext"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView210"
+            android:textColor="#515151"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:text="Initiative Equipment Modifier"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText3"
+            android:textColor="#515151"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:imeOptions="actionNext"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView204"
+            android:textColor="#515151"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:text="Misc Initiative Modifier"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:textColor="#515151"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:imeOptions="actionDone"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView15"
+            android:textColor="#515151"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:text="Command Ability Modifier"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText14"
+            android:textColor="#515151"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:imeOptions="actionDone"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView27"
+            android:textColor="#515151"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:text="Command Skill Modifier"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText15"
+            android:textColor="#515151"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:imeOptions="actionDone"
+            android:inputType="number" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Validate"
+            android:id="@+id/armorinfoValidate"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+    </LinearLayout>
+
+</ScrollView>

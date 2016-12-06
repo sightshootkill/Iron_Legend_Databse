@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.userdaniel.ironkingdoms.DialogFragments.CharacterInfoDialog"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffcdcdcd"
+        android:id="@+id/container">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="RANGED WEAPON"
+            android:id="@+id/textView186"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:background="#B7410E"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Weapon Name"
+            android:id="@+id/textView188"
+            android:textColor="#515151"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText5"
+            android:textColor="#515151"
+            android:inputType="text|textNoSuggestions|textCapWords"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:imeOptions="actionNext" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView190"
+            android:textColor="#515151"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:text="RAT"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText6"
+            android:textColor="#515151"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:inputType="number"
+            android:imeOptions="actionNext" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="RNG"
+            android:id="@+id/textView244"
+            android:textColor="#515151"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText4"
+            android:textColor="#515151"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:imeOptions="actionNext"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="AOE"
+            android:id="@+id/textView245"
+            android:textColor="#515151"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText7"
+            android:textColor="#515151"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:imeOptions="actionNext"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="POW"
+            android:id="@+id/textView322"
+            android:textColor="#515151"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText34"
+            android:textColor="#515151"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:imeOptions="actionNext"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Ammo (Current)"
+            android:id="@+id/textView192"
+            android:textColor="#515151"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText10"
+            android:textColor="#515151"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:imeOptions="actionNext"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Ammo (Total)"
+            android:id="@+id/textView193"
+            android:textColor="#515151"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText11"
+            android:textColor="#515151"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:imeOptions="actionNext"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView322"
+            android:textColor="#515151"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:text="Special Notes"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText35"
+            android:textColor="#515151"
+            android:inputType="text|textMultiLine|textCapSentences"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:imeOptions="actionDone" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Validate"
+            android:id="@+id/rangedweaponValidate"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#898C90">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Light Armor"
+            android:id="@+id/textView175"
+            android:gravity="center|left"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Alchemist&apos;s Leather"
+            android:id="@+id/text1"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:gravity="center_vertical"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingLeft="16dp"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:background="?android:selectableItemBackground" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#23ffffff"></LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text2"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:gravity="center_vertical"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingLeft="16dp"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:text="Armored Great Coat"
+            android:background="?android:selectableItemBackground" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#23ffffff" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text3"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:gravity="center_vertical"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingLeft="16dp"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:text="Custom Battle Armor"
+            android:background="?android:selectableItemBackground" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#23ffffff" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text4"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:gravity="center_vertical"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingLeft="16dp"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:text="Leather Armor"
+            android:background="?android:selectableItemBackground" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#23ffffff" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Ordic Royal Marine Armor"
+            android:id="@+id/text5"
+            android:gravity="center|left"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingLeft="16dp"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:background="?android:selectableItemBackground" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#23ffffff" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text6"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:gravity="center_vertical"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingLeft="16dp"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:text="Plastron"
+            android:background="?android:selectableItemBackground" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#23ffffff" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text7"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:gravity="center_vertical"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingLeft="16dp"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:text="Stormsmith Armor"
+            android:background="?android:selectableItemBackground" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#23ffffff" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text8"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:gravity="center_vertical"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingLeft="16dp"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:text="Temple Flameguard Armor"
+            android:background="?android:selectableItemBackground" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#23ffffff" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Medium Armor"
+            android:id="@+id/textView176"
+            android:gravity="center|left"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text9"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:gravity="center_vertical"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingLeft="16dp"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:text="Assault Kommando Armor"
+            android:background="?android:selectableItemBackground" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#23ffffff" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text10"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:gravity="center_vertical"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingLeft="16dp"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:text="Chain Mail"
+            android:background="?android:selectableItemBackground" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#23ffffff" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text11"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:gravity="center_vertical"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingLeft="16dp"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:text="Infantry Armor"
+            android:background="?android:selectableItemBackground" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#23ffffff" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text12"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:gravity="center_vertical"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingLeft="16dp"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:text="Optifex Armor"
+            android:background="?android:selectableItemBackground" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#23ffffff" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text13"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:gravity="center_vertical"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingLeft="16dp"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:text="Tailored Plate"
+            android:background="?android:selectableItemBackground" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#23ffffff" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text14"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:gravity="center_vertical"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingLeft="16dp"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:text="Vassal Armor"
+            android:background="?android:selectableItemBackground" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#23ffffff" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text15"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:gravity="center_vertical"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingLeft="16dp"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:text="Winter Guard Armor"
+            android:background="?android:selectableItemBackground" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#23ffffff" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Heavy Armor"
+            android:id="@+id/textView177"
+            android:gravity="center|left"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text16"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:gravity="center_vertical"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingLeft="16dp"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:text="Bastion Heavy Plate"
+            android:background="?android:selectableItemBackground" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#23ffffff" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text17"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:gravity="center_vertical"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingLeft="16dp"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:text="Cleanser Armor"
+            android:background="?android:selectableItemBackground" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#23ffffff" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text18"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:gravity="center_vertical"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingLeft="16dp"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:text="Crucible Armor"
+            android:background="?android:selectableItemBackground" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#23ffffff" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text19"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:gravity="center_vertical"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingLeft="16dp"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:text="Exemplar Plate"
+            android:background="?android:selectableItemBackground" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#23ffffff" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text20"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:gravity="center_vertical"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingLeft="16dp"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:text="Full Plate"
+            android:background="?android:selectableItemBackground" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#23ffffff" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text21"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:gravity="center_vertical"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingLeft="16dp"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:text="Ironhead Armor"
+            android:background="?android:selectableItemBackground" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#23ffffff" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text22"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:gravity="center_vertical"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingLeft="16dp"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:text="Man-O-War Armor"
+            android:background="?android:selectableItemBackground" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#23ffffff" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text23"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:gravity="center_vertical"
+            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+            android:paddingLeft="16dp"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:text="Storm Knight Armor"
+            android:background="?android:selectableItemBackground" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#23ffffff" />
+
+    </LinearLayout>
+</ScrollView>

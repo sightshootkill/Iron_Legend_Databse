@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollview1"
+    tools:ignore="HardcodedText">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Injury Table"
+            android:singleLine="false"
+            android:textSize="27sp"
+            android:textStyle="bold|italic"
+            android:textColor="#ECEFF1"
+            android:id="@+id/raceTitle"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="35dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#ffcfd8dc"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="35dp">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="3D6"
+                android:id="@+id/textView92"
+                android:gravity="center"
+                android:background="#ff111313" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Result"
+                android:id="@+id/textView91"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/textView92"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="#ff111313" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:id="@+id/textView93"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView92"
+                android:layout_alignRight="@+id/textView92"
+                android:layout_alignEnd="@+id/textView92"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_alignBottom="@+id/textView94" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:text="Dead - The character dies as a result of his wounds. He is destroyed. At the Game Master&apos;s discretion, the character either died immediately as a result of his wounds or can gasp out a few last words before succumbing to his injuries."
+                android:id="@+id/textView94"
+                android:layout_below="@+id/textView92"
+                android:layout_toRightOf="@+id/textView92"
+                android:layout_alignRight="@+id/textView91"
+                android:layout_alignEnd="@+id/textView91"
+                android:textSize="12sp"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:paddingLeft="4dp"
+                android:gravity="center_vertical"
+                android:paddingRight="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="195dp"
+                android:text="Critical Injuries - The character is critically injured. Helpless and unable to take any action, he is rapidly losing blood and is certain to die unless he recieves immediate medical attention. The character is grievously injured and if he is not stabilized within a number of rounds equal to his PHY, he dies. A stabilized character remains incapacited throughout the battle. If the character survives, he does not recover lost vitality at the normal rate and instead suffers a slow recovery."
+                android:id="@+id/textView95"
+                android:layout_below="@+id/textView94"
+                android:layout_alignLeft="@+id/textView94"
+                android:layout_alignStart="@+id/textView94"
+                android:layout_alignRight="@+id/textView91"
+                android:layout_alignEnd="@+id/textView91"
+                android:textSize="13sp"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:paddingLeft="4dp"
+                android:gravity="center_vertical"
+                android:paddingRight="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:text="A character with a missing leg suffers a permanent -2 SPD and his racial SPD maximum is likewise reduced by 2. The character can offset some of the effects of lost leg with a prosthetic limb. In addition to losing the use of his missing limb, a character with a missing arm also loses one quick action each turn."
+                android:id="@+id/textView114"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView116"
+                android:layout_toRightOf="@+id/textView97"
+                android:layout_alignRight="@+id/textView116"
+                android:layout_alignEnd="@+id/textView116"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:gravity="center_vertical"
+                android:paddingLeft="4dp"
+                android:paddingRight="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:text="If the character survives, he does not recover lost vitality at the normal rate and instead suffers a slow recovery."
+                android:id="@+id/textView116"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView118"
+                android:layout_toRightOf="@+id/textView97"
+                android:layout_alignRight="@+id/textView118"
+                android:layout_alignEnd="@+id/textView118"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:gravity="center_vertical"
+                android:paddingLeft="4dp"
+                android:paddingRight="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="225dp"
+                android:text="Lost Limb - One of the character&apos;s limbs has been severed or otherwise completely destroyed. Rolls a d6. On the roll of 1-3, the character has lost an arm. On the roll of 4-6, he has lost a leg. There is no chance to save the limb, and if the character does not recieve immediate medical attention he is certain to die. Suffering shock and crippling blood loss, the character can do nothing. The character is grievously injured and if he is not stabilized within a number of rounds equal to his PHY, he dies. Once stabilized, the character remains incapacitated throughout the battle."
+                android:id="@+id/textView118"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView120"
+                android:layout_toRightOf="@+id/textView97"
+                android:layout_alignRight="@+id/textView120"
+                android:layout_alignEnd="@+id/textView120"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:paddingLeft="4dp"
+                android:paddingRight="2dp"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="195dp"
+                android:text="Critical Injuries - The character is critically injured. Helpless and unable to take any action, he is rapidly losing blood and is certain to die unless he recieves immediate medical attention. The character is grievously injured and if he is not stabilized within a number of rounds equal to his PHY, he dies. A stabilized character remains incapacited throughout the battle. If the character survives, he does not recover lost vitality at the normal rate and instead suffers a slow recovery."
+                android:id="@+id/textView120"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView122"
+                android:layout_toRightOf="@+id/textView97"
+                android:layout_alignRight="@+id/textView122"
+                android:layout_alignEnd="@+id/textView122"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:gravity="center_vertical"
+                android:paddingLeft="4dp"
+                android:paddingRight="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="145dp"
+                android:text="Lost Eye - The attack destroys one of the character&apos;s eyes and also leaves him concussed from the attack. In addition to the effects of being concussed, one of the character&apos;s eyes has been lost or ruined as a result of the damage he has suffered, determine which randomly. The character permanently suffers a -1 penalty on ranged attack rolls and on sight-based PER rolls."
+                android:id="@+id/textView122"
+                android:textSize="13sp"
+                android:layout_alignLeft="@+id/textView129"
+                android:layout_alignStart="@+id/textView129"
+                android:layout_below="@+id/textView101"
+                android:layout_alignRight="@+id/textView129"
+                android:layout_alignEnd="@+id/textView129"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:gravity="center_vertical"
+                android:paddingLeft="4dp"
+                android:paddingRight="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="83dp"
+                android:text="The character is grievously injured and if he is not stabilized within a number of rounds equal to his PHY, he dies, A stabilized character immediately regains 1 lost vitality point and is no longer incapacitated."
+                android:id="@+id/textView129"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView130"
+                android:layout_alignLeft="@+id/textView130"
+                android:layout_alignStart="@+id/textView130"
+                android:layout_alignRight="@+id/textView130"
+                android:layout_alignEnd="@+id/textView130"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:gravity="center_vertical"
+                android:paddingLeft="4dp"
+                android:paddingRight="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="175dp"
+                android:text="Spitting Blood - The character has suffered a life threatening injury and is rapidly bleeding out. Unless he recieves immediate medical attention, he is certain to die. Though incapacitated, the character can spend 1 feat point to move and take actions during his turn. That turn he is not considered to be incapacitated. The character suffers the penalties for his lost aspects and loses one quick action each turn."
+                android:id="@+id/textView130"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView128"
+                android:layout_alignLeft="@+id/textView128"
+                android:layout_alignStart="@+id/textView128"
+                android:layout_alignRight="@+id/textView128"
+                android:layout_alignEnd="@+id/textView128"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:gravity="center_vertical"
+                android:paddingLeft="4dp"
+                android:paddingRight="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="193dp"
+                android:text="Battle Scars - The character has suffered an injury that has left him concussed and badly scarred. In addition to suffering the effects of being concussed, the character has also suffered a permanent disfigurement to his face and body. As a result of this disfigurement, the character suffers -1 on social skill rolls in which his scars would frighten or disgust the subject of the character&apos;s skill attempt. The character gains +1 on Intimidation skill rolls against anyone who can see his scars."
+                android:id="@+id/textView128"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView126"
+                android:layout_alignLeft="@+id/textView126"
+                android:layout_alignStart="@+id/textView126"
+                android:layout_alignRight="@+id/textView126"
+                android:layout_alignEnd="@+id/textView126"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:gravity="center_vertical"
+                android:paddingLeft="4dp"
+                android:paddingRight="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="67dp"
+                android:text="Concussed - The character has been badly battered and dazed. He is concussed but has otherwise suffered no long-term injuries."
+                android:id="@+id/textView126"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView123"
+                android:layout_alignLeft="@+id/textView123"
+                android:layout_alignStart="@+id/textView123"
+                android:layout_alignRight="@+id/textView123"
+                android:layout_alignEnd="@+id/textView123"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:gravity="center_vertical"
+                android:paddingLeft="4dp"
+                android:paddingRight="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="98dp"
+                android:text="Battered - The character has suffered a traumatic injury that has left him concussed and badly beaten. Until the character recovers all of his lost vitality points, he suffers -2 PHY and SPD in addition to his other wound penalties."
+                android:id="@+id/textView123"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView121"
+                android:layout_alignLeft="@+id/textView121"
+                android:layout_alignStart="@+id/textView121"
+                android:layout_alignRight="@+id/textView121"
+                android:layout_alignEnd="@+id/textView121"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:paddingLeft="4dp"
+                android:paddingRight="2dp"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="83dp"
+                android:id="@+id/textView121"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView119"
+                android:layout_alignLeft="@+id/textView119"
+                android:layout_alignStart="@+id/textView119"
+                android:layout_alignRight="@+id/textView119"
+                android:layout_alignEnd="@+id/textView119"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:text="The character is grievously injured and if he is not stabilized within a number of rounds equal to his PHY, he dies, A stabilized character immediately regains 1 lost vitality point and is no longer incapacitated."
+                android:paddingLeft="4dp"
+                android:paddingRight="2dp"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="175dp"
+                android:text="Spitting Blood - The character has suffered a life threatening injury and is rapidly bleeding out. Unless he recieves immediate medical attention, he is certain to die. Though incapacitated, the character can spend 1 feat point to move and take actions during his turn. That turn he is not considered to be incapacitated. The character suffers the penalties for his lost aspects and loses one quick action each turn."
+                android:id="@+id/textView119"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView117"
+                android:layout_alignLeft="@+id/textView117"
+                android:layout_alignStart="@+id/textView117"
+                android:layout_alignRight="@+id/textView117"
+                android:layout_alignEnd="@+id/textView117"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:paddingLeft="4dp"
+                android:paddingRight="2dp"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="163dp"
+                android:text="Once the limb has been set, the injured character immediately regains his PHY in lost vitality points and is no longer incapacitated. The limb itself takes another 20 + 2d6 days to fully heal. During this time, a character with a broken arm cannot use that arm and loses one quick action each turn. A character with a broken leg suffers -2 SPD, DEF, and initiative until the leg fully heals."
+                android:id="@+id/textView117"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView115"
+                android:layout_alignLeft="@+id/textView115"
+                android:layout_alignStart="@+id/textView115"
+                android:layout_alignRight="@+id/textView115"
+                android:layout_alignEnd="@+id/textView115"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:paddingLeft="4dp"
+                android:paddingRight="2dp"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="165dp"
+                android:text="The character cannot recover lost vitality points until his limb has been set. Setting a limb cannot be done in combat. Setting the character&apos;s limb requires a treating character to spend twenty minutes setting the break followed by a successful INT + Medicine skill roll against a target number of 12. If the roll fails, the character can try again after spending another ten minutes setting the limb."
+                android:id="@+id/textView115"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView113"
+                android:layout_alignLeft="@+id/textView113"
+                android:layout_alignStart="@+id/textView113"
+                android:layout_alignRight="@+id/textView113"
+                android:layout_alignEnd="@+id/textView113"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:paddingLeft="4dp"
+                android:paddingRight="2dp"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="165dp"
+                android:text="Broken Limb - The character has suffered a broken arm or leg. Roll a d6. On the roll of 1-3, the character has broken an arm. On the roll of 4-6, he has broken a leg. Though incapacitated, the character can spend 1 feat point to move and take actions during his turn. That turn he is not considered to be incapacitated. The character loses one quick action each turn in additional to any other penalties for lost aspects."
+                android:id="@+id/textView113"
+                android:textSize="13sp"
+                android:layout_alignLeft="@+id/textView95"
+                android:layout_alignStart="@+id/textView95"
+                android:layout_alignRight="@+id/textView95"
+                android:layout_alignEnd="@+id/textView95"
+                android:layout_below="@+id/textView96"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:paddingLeft="4dp"
+                android:gravity="center_vertical"
+                android:paddingRight="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:id="@+id/textView96"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView93"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView93"
+                android:layout_alignEnd="@+id/textView93"
+                android:layout_alignBottom="@+id/textView95" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30"
+                android:id="@+id/textView101"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView103"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView103"
+                android:layout_alignEnd="@+id/textView103"
+                android:layout_alignBottom="@+id/textView129" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13 - 15"
+                android:id="@+id/textView103"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView104"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView104"
+                android:layout_alignEnd="@+id/textView104"
+                android:layout_alignBottom="@+id/textView129" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12"
+                android:id="@+id/textView104"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView102"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView102"
+                android:layout_alignEnd="@+id/textView102"
+                android:layout_alignBottom="@+id/textView128" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 - 11"
+                android:id="@+id/textView102"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView106"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView106"
+                android:layout_alignEnd="@+id/textView106"
+                android:layout_alignBottom="@+id/textView126" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:id="@+id/textView106"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignBottom="@+id/textView123"
+                android:layout_below="@+id/textView108"
+                android:layout_alignRight="@+id/textView108"
+                android:layout_alignEnd="@+id/textView108" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6 - 8"
+                android:id="@+id/textView108"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/textView119"
+                android:layout_toStartOf="@+id/textView119"
+                android:layout_below="@+id/textView111"
+                android:layout_above="@+id/textView123" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:id="@+id/textView111"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_alignTop="@+id/textView113"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/textView113"
+                android:layout_toStartOf="@+id/textView113"
+                android:layout_alignBottom="@+id/textView117" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16"
+                android:id="@+id/textView97"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView101"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView101"
+                android:layout_alignEnd="@+id/textView101"
+                android:layout_alignBottom="@+id/textView122" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="17"
+                android:id="@+id/textView98"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView97"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView97"
+                android:layout_alignEnd="@+id/textView97"
+                android:layout_alignBottom="@+id/textView120" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18"
+                android:id="@+id/textView99"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_alignTop="@+id/textView118"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView98"
+                android:layout_alignEnd="@+id/textView98"
+                android:layout_alignBottom="@+id/textView114" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_above="@+id/textView95"
+                android:layout_toLeftOf="@+id/textView94"
+                android:layout_toStartOf="@+id/textView94"
+                android:background="#a0cfd8dc"></LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#a0cfd8dc"
+                android:layout_above="@+id/textView111"
+                android:layout_alignRight="@+id/textView96"
+                android:layout_alignEnd="@+id/textView96" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#a0cfd8dc"
+                android:layout_above="@+id/textView119"
+                android:layout_toLeftOf="@+id/textView119"
+                android:layout_toStartOf="@+id/textView119" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#a0cfd8dc"
+                android:layout_above="@+id/textView123"
+                android:layout_toLeftOf="@+id/textView123"
+                android:layout_toStartOf="@+id/textView123" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#a0cfd8dc"
+                android:layout_alignBottom="@+id/textView106"
+                android:layout_alignRight="@+id/textView106"
+                android:layout_alignEnd="@+id/textView106" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#a0cfd8dc"
+                android:layout_above="@+id/textView128"
+                android:layout_toLeftOf="@+id/textView128"
+                android:layout_toStartOf="@+id/textView128" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#a0cfd8dc"
+                android:layout_alignBottom="@+id/textView128"
+                android:layout_toLeftOf="@+id/textView128"
+                android:layout_toStartOf="@+id/textView128" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#a0cfd8dc"
+                android:layout_above="@+id/textView101"
+                android:layout_alignRight="@+id/textView101"
+                android:layout_alignEnd="@+id/textView101" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#a0cfd8dc"
+                android:layout_above="@+id/textView120"
+                android:layout_toLeftOf="@+id/textView120"
+                android:layout_toStartOf="@+id/textView120" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#a0cfd8dc"
+                android:layout_above="@+id/textView118"
+                android:layout_toLeftOf="@+id/textView120"
+                android:layout_toStartOf="@+id/textView120" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollview1"
+    tools:ignore="HardcodedText">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ogrun"
+            android:singleLine="false"
+            android:textSize="27sp"
+            android:textStyle="bold|italic"
+            android:textColor="#ECEFF1"
+            android:id="@+id/raceTitle"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="35dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#ffcfd8dc"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:text="PHY"
+                android:id="@+id/textView21"
+                android:layout_below="@+id/textView28"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_alignRight="@+id/textView39"
+                android:layout_alignEnd="@+id/textView39"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="Starting Value"
+                android:id="@+id/textView28"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/textView21"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:id="@+id/textView30"
+                android:layout_below="@+id/textView28"
+                android:layout_alignLeft="@+id/textView28"
+                android:layout_alignStart="@+id/textView28"
+                android:gravity="center"
+                android:layout_alignRight="@+id/textView28"
+                android:layout_alignEnd="@+id/textView28"
+                android:layout_alignBottom="@+id/textView21"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:text="SPD"
+                android:id="@+id/textView31"
+                android:gravity="center"
+                android:layout_below="@+id/textView21"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#ff111313"
+                android:layout_alignRight="@+id/textView21"
+                android:layout_alignEnd="@+id/textView21"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:text="STR"
+                android:id="@+id/textView33"
+                android:gravity="center"
+                android:layout_below="@+id/textView31"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#ff111313"
+                android:layout_alignRight="@+id/textView31"
+                android:layout_alignEnd="@+id/textView31"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:text="ARC"
+                android:id="@+id/textView34"
+                android:gravity="center"
+                android:layout_below="@+id/textView35"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#ff111313"
+                android:layout_toLeftOf="@+id/textView48"
+                android:layout_toStartOf="@+id/textView48"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:text="INT"
+                android:id="@+id/textView35"
+                android:gravity="center"
+                android:layout_below="@+id/textView37"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#ff111313"
+                android:layout_toLeftOf="@+id/textView47"
+                android:layout_toStartOf="@+id/textView47"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:text="POI"
+                android:id="@+id/textView37"
+                android:gravity="center"
+                android:layout_below="@+id/textView39"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#ff111313"
+                android:layout_toLeftOf="@+id/textView45"
+                android:layout_toStartOf="@+id/textView45"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="42dp"
+                android:layout_height="28dp"
+                android:text="PRW"
+                android:id="@+id/textView39"
+                android:gravity="center"
+                android:layout_below="@+id/textView40"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#ff111313"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:text="AGI"
+                android:id="@+id/textView40"
+                android:gravity="center"
+                android:layout_below="@+id/textView33"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#ff111313"
+                android:layout_alignRight="@+id/textView33"
+                android:layout_alignEnd="@+id/textView33"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:text="PER"
+                android:id="@+id/textView41"
+                android:gravity="center"
+                android:layout_below="@+id/textView34"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#ff111313"
+                android:layout_toLeftOf="@+id/textView48"
+                android:layout_toStartOf="@+id/textView48"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:id="@+id/textView42"
+                android:gravity="center"
+                android:layout_below="@+id/textView30"
+                android:layout_alignRight="@+id/textView30"
+                android:layout_alignEnd="@+id/textView30"
+                android:layout_toEndOf="@+id/textView21"
+                android:layout_toRightOf="@+id/textView21"
+                android:layout_alignBottom="@+id/textView31"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:id="@+id/textView43"
+                android:gravity="center"
+                android:layout_below="@+id/textView31"
+                android:layout_alignRight="@+id/textView42"
+                android:layout_alignEnd="@+id/textView42"
+                android:layout_alignLeft="@+id/textView42"
+                android:layout_alignStart="@+id/textView42"
+                android:layout_alignBottom="@+id/textView33"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:id="@+id/textView44"
+                android:gravity="center"
+                android:layout_alignTop="@+id/textView40"
+                android:layout_alignRight="@+id/textView43"
+                android:layout_alignEnd="@+id/textView43"
+                android:layout_alignLeft="@+id/textView43"
+                android:layout_alignStart="@+id/textView43"
+                android:layout_above="@+id/textView39"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:id="@+id/textView45"
+                android:gravity="center"
+                android:layout_below="@+id/textView40"
+                android:layout_alignRight="@+id/textView44"
+                android:layout_alignEnd="@+id/textView44"
+                android:layout_toEndOf="@+id/textView39"
+                android:layout_alignBottom="@+id/textView39"
+                android:layout_alignLeft="@+id/textView44"
+                android:layout_alignStart="@+id/textView44"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:id="@+id/textView46"
+                android:gravity="center"
+                android:layout_alignTop="@+id/textView37"
+                android:layout_alignRight="@+id/textView45"
+                android:layout_alignEnd="@+id/textView45"
+                android:layout_alignBottom="@+id/textView37"
+                android:layout_toEndOf="@+id/textView33"
+                android:layout_toRightOf="@+id/textView33"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:id="@+id/textView47"
+                android:gravity="center"
+                android:layout_alignRight="@+id/textView46"
+                android:layout_alignEnd="@+id/textView46"
+                android:layout_alignTop="@+id/textView35"
+                android:layout_alignLeft="@+id/textView46"
+                android:layout_alignStart="@+id/textView46"
+                android:layout_alignBottom="@+id/textView35"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:id="@+id/textView48"
+                android:gravity="center"
+                android:layout_alignTop="@+id/textView34"
+                android:layout_alignRight="@+id/textView47"
+                android:layout_alignEnd="@+id/textView47"
+                android:layout_alignLeft="@+id/textView47"
+                android:layout_alignStart="@+id/textView47"
+                android:layout_alignBottom="@+id/textView34"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:id="@+id/textView49"
+                android:gravity="center"
+                android:layout_alignTop="@+id/textView41"
+                android:layout_alignBottom="@+id/textView41"
+                android:layout_alignRight="@+id/textView48"
+                android:layout_alignEnd="@+id/textView48"
+                android:layout_toRightOf="@+id/textView41"
+                android:layout_toEndOf="@+id/textView41"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:text="Hero Limit"
+                android:id="@+id/textView50"
+                android:gravity="center"
+                android:layout_alignBottom="@+id/textView28"
+                android:layout_toRightOf="@+id/textView28"
+                android:layout_marginLeft="8dp"
+                android:background="#ff111313"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7"
+                android:id="@+id/textView51"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_below="@+id/textView50"
+                android:layout_alignBottom="@+id/textView30"
+                android:layout_alignRight="@+id/textView50"
+                android:layout_alignEnd="@+id/textView50"
+                android:layout_alignLeft="@+id/textView50"
+                android:layout_alignStart="@+id/textView50"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:id="@+id/textView52"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_alignTop="@+id/textView42"
+                android:layout_alignRight="@+id/textView51"
+                android:layout_alignEnd="@+id/textView51"
+                android:layout_alignLeft="@+id/textView53"
+                android:layout_alignStart="@+id/textView53"
+                android:layout_alignBottom="@+id/textView42"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:id="@+id/textView53"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_below="@+id/textView52"
+                android:layout_alignLeft="@+id/textView51"
+                android:layout_alignStart="@+id/textView51"
+                android:layout_alignRight="@+id/textView51"
+                android:layout_alignEnd="@+id/textView51"
+                android:layout_alignBottom="@+id/textView43"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:id="@+id/textView54"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_below="@+id/textView53"
+                android:layout_alignLeft="@+id/textView53"
+                android:layout_alignStart="@+id/textView53"
+                android:layout_alignRight="@+id/textView53"
+                android:layout_alignEnd="@+id/textView53"
+                android:layout_above="@+id/textView45"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:id="@+id/textView55"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_above="@+id/textView48"
+                android:layout_alignLeft="@+id/textView54"
+                android:layout_alignStart="@+id/textView54"
+                android:layout_alignRight="@+id/textView59"
+                android:layout_alignEnd="@+id/textView59"
+                android:layout_alignTop="@+id/textView47"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:id="@+id/textView56"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_alignBottom="@+id/textView48"
+                android:layout_alignRight="@+id/textView55"
+                android:layout_alignEnd="@+id/textView55"
+                android:layout_alignLeft="@+id/textView57"
+                android:layout_alignStart="@+id/textView57"
+                android:layout_alignTop="@+id/textView48"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:id="@+id/textView57"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_alignBottom="@+id/textView49"
+                android:layout_alignLeft="@+id/textView55"
+                android:layout_alignStart="@+id/textView55"
+                android:layout_alignRight="@+id/textView55"
+                android:layout_alignEnd="@+id/textView55"
+                android:layout_alignTop="@+id/textView49"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:id="@+id/textView58"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_alignRight="@+id/textView59"
+                android:layout_alignEnd="@+id/textView59"
+                android:layout_alignLeft="@+id/textView55"
+                android:layout_alignStart="@+id/textView55"
+                android:layout_below="@+id/textView59"
+                android:layout_above="@+id/textView47"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:id="@+id/textView59"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_above="@+id/textView46"
+                android:layout_alignRight="@+id/textView54"
+                android:layout_alignEnd="@+id/textView54"
+                android:layout_alignLeft="@+id/textView54"
+                android:layout_alignStart="@+id/textView54"
+                android:layout_alignTop="@+id/textView45"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:text="Vet Limit"
+                android:id="@+id/textView60"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/textView50"
+                android:layout_toEndOf="@+id/textView50"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:id="@+id/textView61"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_below="@+id/textView50"
+                android:layout_toRightOf="@+id/textView51"
+                android:layout_alignRight="@+id/textView60"
+                android:layout_alignEnd="@+id/textView60"
+                android:layout_alignBottom="@+id/textView51"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:id="@+id/textView62"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_below="@+id/textView51"
+                android:layout_alignRight="@+id/textView60"
+                android:layout_alignEnd="@+id/textView60"
+                android:layout_toRightOf="@+id/textView52"
+                android:layout_toEndOf="@+id/textView52"
+                android:layout_alignBottom="@+id/textView52"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:id="@+id/textView63"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_alignTop="@+id/textView53"
+                android:layout_alignRight="@+id/textView62"
+                android:layout_alignEnd="@+id/textView62"
+                android:layout_toRightOf="@+id/textView53"
+                android:layout_toEndOf="@+id/textView53"
+                android:layout_alignBottom="@+id/textView53"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:id="@+id/textView64"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_alignTop="@+id/textView54"
+                android:layout_alignRight="@+id/textView63"
+                android:layout_alignEnd="@+id/textView63"
+                android:layout_toRightOf="@+id/textView54"
+                android:layout_toEndOf="@+id/textView54"
+                android:layout_alignBottom="@+id/textView54"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:id="@+id/textView65"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_alignTop="@+id/textView59"
+                android:layout_toRightOf="@+id/textView59"
+                android:layout_alignRight="@+id/textView64"
+                android:layout_alignEnd="@+id/textView64"
+                android:layout_above="@+id/textView58"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:id="@+id/textView66"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_below="@+id/textView59"
+                android:layout_alignRight="@+id/textView64"
+                android:layout_alignEnd="@+id/textView64"
+                android:layout_toRightOf="@+id/textView58"
+                android:layout_toEndOf="@+id/textView58"
+                android:layout_alignBottom="@+id/textView58"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:id="@+id/textView67"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_alignTop="@+id/textView55"
+                android:layout_toRightOf="@+id/textView55"
+                android:layout_alignRight="@+id/textView66"
+                android:layout_alignEnd="@+id/textView66"
+                android:layout_alignBottom="@+id/textView55"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:id="@+id/textView68"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_alignTop="@+id/textView56"
+                android:layout_toRightOf="@+id/textView56"
+                android:layout_alignRight="@+id/textView67"
+                android:layout_alignEnd="@+id/textView67"
+                android:layout_alignBottom="@+id/textView56"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:id="@+id/textView69"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_alignTop="@+id/textView57"
+                android:layout_toRightOf="@+id/textView57"
+                android:layout_alignRight="@+id/textView68"
+                android:layout_alignEnd="@+id/textView68"
+                android:layout_alignBottom="@+id/textView57"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:text="Epic Limit"
+                android:id="@+id/textView70"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/textView60"
+                android:layout_toEndOf="@+id/textView60"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:id="@+id/textView71"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_below="@+id/textView70"
+                android:layout_toRightOf="@+id/textView61"
+                android:layout_alignBottom="@+id/textView61"
+                android:layout_alignRight="@+id/textView70"
+                android:layout_alignEnd="@+id/textView70"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:id="@+id/textView72"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_alignTop="@+id/textView62"
+                android:layout_toRightOf="@+id/textView62"
+                android:layout_alignRight="@+id/textView71"
+                android:layout_alignEnd="@+id/textView71"
+                android:layout_alignBottom="@+id/textView62"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:id="@+id/textView73"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_alignTop="@+id/textView63"
+                android:layout_toRightOf="@+id/textView63"
+                android:layout_alignRight="@+id/textView72"
+                android:layout_alignEnd="@+id/textView72"
+                android:layout_alignBottom="@+id/textView63"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:id="@+id/textView74"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_alignTop="@+id/textView64"
+                android:layout_alignRight="@+id/textView70"
+                android:layout_alignEnd="@+id/textView70"
+                android:layout_toRightOf="@+id/textView64"
+                android:layout_toEndOf="@+id/textView64"
+                android:layout_alignBottom="@+id/textView64"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7"
+                android:id="@+id/textView75"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_alignTop="@+id/textView65"
+                android:layout_toRightOf="@+id/textView65"
+                android:layout_alignRight="@+id/textView74"
+                android:layout_alignEnd="@+id/textView74"
+                android:layout_above="@+id/textView66"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:id="@+id/textView76"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_below="@+id/textView65"
+                android:layout_alignRight="@+id/textView74"
+                android:layout_alignEnd="@+id/textView74"
+                android:layout_toRightOf="@+id/textView65"
+                android:layout_toEndOf="@+id/textView65"
+                android:layout_alignBottom="@+id/textView66"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:id="@+id/textView77"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_alignTop="@+id/textView67"
+                android:layout_toRightOf="@+id/textView67"
+                android:layout_alignRight="@+id/textView76"
+                android:layout_alignEnd="@+id/textView76"
+                android:layout_alignBottom="@+id/textView67"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:id="@+id/textView78"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_alignTop="@+id/textView68"
+                android:layout_toRightOf="@+id/textView68"
+                android:layout_alignRight="@+id/textView77"
+                android:layout_alignEnd="@+id/textView77"
+                android:layout_alignBottom="@+id/textView68"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:id="@+id/textView79"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:layout_alignTop="@+id/textView69"
+                android:layout_alignRight="@+id/textView76"
+                android:layout_alignEnd="@+id/textView76"
+                android:layout_toRightOf="@+id/textView69"
+                android:layout_toEndOf="@+id/textView69"
+                android:layout_alignBottom="@+id/textView69"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Archetypes:"
+                android:id="@+id/textView80"
+                android:textColor="#ECEFF1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mighty, Skilled"
+                android:id="@+id/textView81"
+                android:textColor="#B0BEC5"
+                android:layout_marginLeft="3dp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Languages:"
+                android:textColor="#ECEFF1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView83"
+                android:layout_marginLeft="2dp"
+                android:textColor="#B0BEC5"
+                android:text="                       An ogrun starts the game with three languages: Molgur-Og, Rhulic, and one other he has picked up in his travels." />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginBottom="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Height:"
+                android:textColor="#ECEFF1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="              90-105 inches male, 82-97 inches female."
+                android:id="@+id/textView82"
+                android:layout_marginLeft="2dp"
+                android:textColor="#B0BEC5" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginBottom="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weight:"
+                android:textColor="#ECEFF1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="               450-500 pounds male, 330-380 pounds female"
+                android:id="@+id/textView84"
+                android:layout_marginLeft="2dp"
+                android:textColor="#B0BEC5" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginBottom="35dp"
+            android:layout_marginRight="14dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Additional Characteristics:"
+                android:textColor="#ECEFF1"
+                android:textStyle="bold"
+                android:id="@+id/textView85" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageView5"
+                    android:src="@android:drawable/presence_invisible"
+                    android:layout_marginRight="12dp"
+                    android:scaleType="fitStart"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Huge Stature - An ogrun can wield a weapon in one hand that usually requires two hands to wield, but he suffers -2 on attack rolls with that weapon."
+                    android:id="@+id/textView86"
+                    android:paddingTop="6dp"
+                    android:textStyle="italic"
+                    android:textColor="#B0BEC5" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

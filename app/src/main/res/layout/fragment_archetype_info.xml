@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="35dp"
+    android:weightSum="1"
+    android:background="#898C90">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffcdcdcd"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="12dp"
+            android:elevation="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ace Commander"
+                android:singleLine="false"
+                android:textSize="27sp"
+                android:textStyle="bold|italic"
+                android:textColor="#B7410E"
+                android:id="@+id/abilityTitle"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:id="@+id/abilityDescriptionView"
+                android:textStyle="italic"
+                android:typeface="serif"
+                android:text="The character gains an extra quick action during each of his turns that can only be used to drive a &apos;jack,"
+                android:layout_margin="12dp"
+                android:textColor="#515151" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

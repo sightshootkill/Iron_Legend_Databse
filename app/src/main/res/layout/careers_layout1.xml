@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollview1"
+    android:background="#898C90">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:paddingLeft="12dp"
+        android:paddingTop="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="25dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffcdcdcd"
+            android:elevation="10dp"
+            android:paddingBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alchemist"
+                android:id="@+id/careerTitle"
+                android:textStyle="bold|italic"
+                android:textSize="25sp"
+                android:textColor="#B7410E"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Prerequisites:"
+                    android:textSize="13sp"
+                    android:textColor="#515151" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="None"
+                    android:id="@+id/prerequisitesView"
+                    android:textSize="13sp"
+                    android:textColor="#515151" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Starting Abilities and Skills"
+                android:id="@+id/startingObjectsTitle"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="35dp"
+                android:textColor="#CF5300" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/abilitiesLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Abilities:"
+                    android:id="@+id/textView16"
+                    android:textStyle="bold|italic"
+                    android:textColor="#515151" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Grenadier and Poison Resistance"
+                    android:id="@+id/startingAbilitiesView"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="#515151" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:layout_marginLeft="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Military Skills:"
+                    android:id="@+id/textView18"
+                    android:textStyle="bold|italic"
+                    android:textColor="#515151" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hand Weapon 1 and Thrown Weapon 1"
+                    android:id="@+id/startingMilitarySkillsView"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="#515151"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:layout_marginLeft="12dp"
+                android:id="@+id/connectLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Connections:"
+                    android:id="@+id/textView239"
+                    android:textStyle="bold|italic"
+                    android:textColor="#515151" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hand Weapon 1 and Thrown Weapon 1"
+                    android:id="@+id/textView240"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="#515151"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:layout_marginLeft="12dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occupational Skills:"
+                    android:id="@+id/textView179"
+                    android:textStyle="bold|italic"
+                    android:textColor="#515151" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hand Weapon 1 and Thrown Weapon 1"
+                    android:id="@+id/textView180"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="#515151"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:layout_marginLeft="12dp"
+                android:id="@+id/spellsLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Spells:"
+                    android:id="@+id/textView237"
+                    android:textStyle="bold|italic"
+                    android:textColor="#515151" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hand Weapon 1 and Thrown Weapon 1"
+                    android:id="@+id/textView238"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="#515151"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:layout_marginLeft="12dp"
+                android:id="@+id/specialLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Special:"
+                    android:id="@+id/textView20"
+                    android:textStyle="bold|italic"
+                    android:textColor="#515151" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alchemy 1 and Medicine 1"
+                    android:id="@+id/startingOccupationalSkillsView"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="#515151" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="#ffcdcdcd"
+            android:elevation="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Starting Assets"
+                android:id="@+id/startingAssetsTitle"
+                android:textColor="#CF5300"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="50 gc, alchemist&apos;s leather, gas mask, traveling alchemist&apos;s kit, any five alchemical grenades, and a grenadier&apos;s bandolier"
+                android:id="@+id/startingAssetsView"
+                android:textStyle="italic"
+                android:textColor="#515151"
+                android:layout_marginLeft="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="#ffcdcdcd"
+            android:clickable="false"
+            android:id="@+id/testlayoutid"
+            android:elevation="10dp">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Alchemist Abilities"
+                    android:id="@+id/careerAbilitiesTitle"
+                    android:textColor="#CF5300"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentStart="false" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/careerAbilitiesImage"
+                    android:src="@android:drawable/ic_menu_info_details"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bomber, Brew Master, Fast Cook, Field Alchemist, Fire in the Hole!, Free Style, Grenadier, Poison Resistance"
+                android:id="@+id/careerAbilitiesView"
+                android:textStyle="italic"
+                android:textColor="#515151"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="#ffcdcdcd"
+            android:elevation="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alchemist Connections"
+                android:id="@+id/careerConnectionsTitle"
+                android:textColor="#CF5300"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Connections (alchemical order)"
+                android:id="@+id/careerConnectionsView"
+                android:textStyle="italic"
+                android:textColor="#515151"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="#ffcdcdcd"
+            android:elevation="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alchemist Military Skills"
+                android:id="@+id/careerMilitarySkillsTitle"
+                android:textColor="#CF5300"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hand Weapon 2, Thrown Weapon 4, Unarmed Combat 2"
+                android:id="@+id/careerMilitarySkillsView"
+                android:textStyle="italic"
+                android:textSize="13.5dp"
+                android:textColor="#515151"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="#ffcdcdcd"
+            android:elevation="10dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alchemist Occupational Skills"
+                android:id="@+id/textView241"
+                android:textColor="#CF5300"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hand Weapon 2, Thrown Weapon 4, Unarmed Combat 2"
+                android:id="@+id/textView242"
+                android:textStyle="italic"
+                android:textSize="13.5dp"
+                android:textColor="#515151"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="#ffcdcdcd"
+            android:clickable="false"
+            android:id="@+id/linearLayout6"
+            android:elevation="10dp" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Alchemist Spells"
+                    android:id="@+id/textView243"
+                    android:textColor="#CF5300"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentStart="false" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView12"
+                    android:src="@android:drawable/ic_menu_info_details"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Spells from alchemist spell list"
+                android:id="@+id/textView248"
+                android:textStyle="italic"
+                android:textColor="#515151"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,76 @@
+
+<android.support.v4.widget.DrawerLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame_container">
+
+        <RelativeLayout
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#898C90">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/mercs_logo"
+        android:alpha=".6" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:id="@+id/linearLayout8">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="New Character"
+            android:id="@+id/button1"
+            android:onClick="startCharacter"
+            android:layout_weight=".5"
+            android:backgroundTint="#ff9b9b9b"
+            android:layout_marginTop="7dp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:dividerHeight="10.0sp"
+        android:divider="@android:color/transparent"
+        android:drawSelectorOnTop="true"
+        android:layout_below="@+id/linearLayout8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="5dp" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <ListView
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:id="@+id/list_slidermenu"
+        android:layout_gravity="start"
+        android:background="#ffeeeeee"
+        android:dividerHeight="1dp"
+        android:divider="#e0e0e0" />
+
+</android.support.v4.widget.DrawerLayout>

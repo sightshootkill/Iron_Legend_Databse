@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollview1"
+    tools:ignore="HardcodedText">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Career Advancement Table"
+            android:singleLine="false"
+            android:textSize="27sp"
+            android:textStyle="bold|italic"
+            android:textColor="#ECEFF1"
+            android:id="@+id/raceTitle"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="35dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#ffcfd8dc"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HERO LEVEL"
+            android:id="@+id/textView112"
+            android:layout_gravity="center_horizontal"
+            android:textSize="22sp"
+            android:textColor="#ECEFF1"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="4dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Xp Total"
+                android:id="@+id/textView92"
+                android:gravity="center"
+                android:background="#ff111313" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Character Advancement"
+                android:id="@+id/textView91"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/textView92"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="#ff111313" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:id="@+id/textView93"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView92"
+                android:layout_alignRight="@+id/textView92"
+                android:layout_alignEnd="@+id/textView92"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_alignBottom="@+id/textView94" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+2 occupational skills"
+                android:id="@+id/textView94"
+                android:layout_below="@+id/textView92"
+                android:layout_toRightOf="@+id/textView92"
+                android:layout_alignRight="@+id/textView91"
+                android:layout_alignEnd="@+id/textView91"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+1 spell, ability, connection, or military skill"
+                android:id="@+id/textView95"
+                android:layout_below="@+id/textView94"
+                android:layout_alignLeft="@+id/textView94"
+                android:layout_alignStart="@+id/textView94"
+                android:gravity="center"
+                android:layout_alignRight="@+id/textView91"
+                android:layout_alignEnd="@+id/textView91"
+                android:textSize="13sp"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+1 stat"
+                android:id="@+id/textView114"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView116"
+                android:layout_toRightOf="@+id/textView97"
+                android:layout_alignRight="@+id/textView116"
+                android:layout_alignEnd="@+id/textView116"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+1 spell, ability, connection, or military skill"
+                android:id="@+id/textView116"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView118"
+                android:layout_toRightOf="@+id/textView97"
+                android:layout_alignRight="@+id/textView118"
+                android:layout_alignEnd="@+id/textView118"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+2 occupational skills"
+                android:id="@+id/textView118"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView120"
+                android:layout_toRightOf="@+id/textView97"
+                android:layout_alignRight="@+id/textView120"
+                android:layout_alignEnd="@+id/textView120"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+1 stat"
+                android:id="@+id/textView120"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView122"
+                android:layout_toRightOf="@+id/textView97"
+                android:layout_alignRight="@+id/textView122"
+                android:layout_alignEnd="@+id/textView122"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+1 spell, ability, connection, or military skill"
+                android:id="@+id/textView122"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_alignLeft="@+id/textView129"
+                android:layout_alignStart="@+id/textView129"
+                android:layout_below="@+id/textView101"
+                android:layout_alignRight="@+id/textView129"
+                android:layout_alignEnd="@+id/textView129"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+1 archetype benefit or +1 career and +2 occupational skills"
+                android:id="@+id/textView129"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView130"
+                android:layout_alignLeft="@+id/textView130"
+                android:layout_alignStart="@+id/textView130"
+                android:layout_alignRight="@+id/textView130"
+                android:layout_alignEnd="@+id/textView130"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+2 occupational skills"
+                android:id="@+id/textView130"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView128"
+                android:layout_alignLeft="@+id/textView128"
+                android:layout_alignStart="@+id/textView128"
+                android:layout_alignRight="@+id/textView128"
+                android:layout_alignEnd="@+id/textView128"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+1 stat"
+                android:id="@+id/textView128"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView126"
+                android:layout_alignLeft="@+id/textView126"
+                android:layout_alignStart="@+id/textView126"
+                android:layout_alignRight="@+id/textView126"
+                android:layout_alignEnd="@+id/textView126"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+1 spell, ability, connection, or military skill"
+                android:id="@+id/textView126"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView123"
+                android:layout_alignLeft="@+id/textView123"
+                android:layout_alignStart="@+id/textView123"
+                android:layout_alignRight="@+id/textView123"
+                android:layout_alignEnd="@+id/textView123"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+2 occupational skills"
+                android:id="@+id/textView123"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView121"
+                android:layout_alignLeft="@+id/textView121"
+                android:layout_alignStart="@+id/textView121"
+                android:layout_alignRight="@+id/textView121"
+                android:layout_alignEnd="@+id/textView121"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+1 stat"
+                android:id="@+id/textView121"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView119"
+                android:layout_alignLeft="@+id/textView119"
+                android:layout_alignStart="@+id/textView119"
+                android:layout_alignRight="@+id/textView119"
+                android:layout_alignEnd="@+id/textView119"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+1 archetype benefit"
+                android:id="@+id/textView119"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView117"
+                android:layout_alignLeft="@+id/textView117"
+                android:layout_alignStart="@+id/textView117"
+                android:layout_alignRight="@+id/textView117"
+                android:layout_alignEnd="@+id/textView117"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+1 spell, ability, connection, or military skill"
+                android:id="@+id/textView117"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView115"
+                android:layout_alignLeft="@+id/textView115"
+                android:layout_alignStart="@+id/textView115"
+                android:layout_alignRight="@+id/textView115"
+                android:layout_alignEnd="@+id/textView115"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+2 occupational skills"
+                android:id="@+id/textView115"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView113"
+                android:layout_alignLeft="@+id/textView113"
+                android:layout_alignStart="@+id/textView113"
+                android:layout_alignRight="@+id/textView113"
+                android:layout_alignEnd="@+id/textView113"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+1 stat"
+                android:id="@+id/textView113"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_alignLeft="@+id/textView95"
+                android:layout_alignStart="@+id/textView95"
+                android:layout_alignRight="@+id/textView95"
+                android:layout_alignEnd="@+id/textView95"
+                android:layout_below="@+id/textView96"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:id="@+id/textView96"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView93"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView93"
+                android:layout_alignEnd="@+id/textView93"
+                android:layout_alignBottom="@+id/textView95" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30"
+                android:id="@+id/textView101"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView103"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView103"
+                android:layout_alignEnd="@+id/textView103"
+                android:layout_alignBottom="@+id/textView129" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="27"
+                android:id="@+id/textView103"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView104"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView104"
+                android:layout_alignEnd="@+id/textView104"
+                android:layout_alignBottom="@+id/textView130" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24"
+                android:id="@+id/textView104"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView102"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView102"
+                android:layout_alignEnd="@+id/textView102"
+                android:layout_alignBottom="@+id/textView128" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21"
+                android:id="@+id/textView102"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView106"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView106"
+                android:layout_alignEnd="@+id/textView106"
+                android:layout_alignBottom="@+id/textView126" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18"
+                android:id="@+id/textView106"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView107"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView107"
+                android:layout_alignEnd="@+id/textView107"
+                android:layout_alignBottom="@+id/textView123" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15"
+                android:id="@+id/textView107"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView108"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView108"
+                android:layout_alignEnd="@+id/textView108"
+                android:layout_above="@+id/textView123" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12"
+                android:id="@+id/textView108"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView109"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/textView119"
+                android:layout_toStartOf="@+id/textView119"
+                android:layout_alignBottom="@+id/textView119" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:id="@+id/textView109"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView110"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView110"
+                android:layout_alignEnd="@+id/textView110"
+                android:layout_alignBottom="@+id/textView117" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:id="@+id/textView110"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView111"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView111"
+                android:layout_alignEnd="@+id/textView111"
+                android:layout_alignBottom="@+id/textView115" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:id="@+id/textView111"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_alignTop="@+id/textView113"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/textView113"
+                android:layout_toStartOf="@+id/textView113"
+                android:layout_alignBottom="@+id/textView113" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="33"
+                android:id="@+id/textView97"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView101"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView101"
+                android:layout_alignEnd="@+id/textView101"
+                android:layout_alignBottom="@+id/textView122" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="36"
+                android:id="@+id/textView98"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView97"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView97"
+                android:layout_alignEnd="@+id/textView97"
+                android:layout_alignBottom="@+id/textView120" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="39"
+                android:id="@+id/textView99"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_alignTop="@+id/textView118"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView98"
+                android:layout_alignEnd="@+id/textView98"
+                android:layout_above="@+id/textView116" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="42"
+                android:id="@+id/textView100"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView99"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView99"
+                android:layout_alignEnd="@+id/textView99"
+                android:layout_alignBottom="@+id/textView116" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="45"
+                android:id="@+id/textView105"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView100"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView100"
+                android:layout_alignEnd="@+id/textView100"
+                android:layout_alignBottom="@+id/textView114" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VETEREN LEVEL"
+            android:id="@+id/textView164"
+            android:layout_gravity="center_horizontal"
+            android:textSize="22sp"
+            android:textColor="#ECEFF1"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="4dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:id="@+id/relativeLayout"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Xp Total"
+                android:id="@+id/textView124"
+                android:gravity="center"
+                android:background="#ff111313" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Character Advancement"
+                android:id="@+id/textView125"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/textView124"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="#ff111313" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50"
+                android:id="@+id/textView127"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView124"
+                android:layout_alignRight="@+id/textView124"
+                android:layout_alignEnd="@+id/textView124"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_alignBottom="@+id/textView131" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+1 archetype benefit"
+                android:id="@+id/textView131"
+                android:layout_below="@+id/textView124"
+                android:layout_toRightOf="@+id/textView124"
+                android:layout_alignRight="@+id/textView125"
+                android:layout_alignEnd="@+id/textView125"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+2 occupational skills"
+                android:id="@+id/textView132"
+                android:layout_below="@+id/textView131"
+                android:layout_alignLeft="@+id/textView131"
+                android:layout_alignStart="@+id/textView131"
+                android:gravity="center"
+                android:layout_alignRight="@+id/textView125"
+                android:layout_alignEnd="@+id/textView125"
+                android:textSize="13sp"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:id="@+id/textView140"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView141"
+                android:layout_alignLeft="@+id/textView141"
+                android:layout_alignStart="@+id/textView141"
+                android:layout_alignRight="@+id/textView141"
+                android:layout_alignEnd="@+id/textView141"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:text="+1 spell, ability, connection, or military skill" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+2 occupational skills"
+                android:id="@+id/textView141"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView142"
+                android:layout_alignLeft="@+id/textView142"
+                android:layout_alignStart="@+id/textView142"
+                android:layout_alignRight="@+id/textView142"
+                android:layout_alignEnd="@+id/textView142"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+1 stat"
+                android:id="@+id/textView142"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView143"
+                android:layout_alignLeft="@+id/textView143"
+                android:layout_alignStart="@+id/textView143"
+                android:layout_alignRight="@+id/textView143"
+                android:layout_alignEnd="@+id/textView143"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+1 archetype benefit or +1 career and +2 occupational skills"
+                android:id="@+id/textView143"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView144"
+                android:layout_alignLeft="@+id/textView144"
+                android:layout_alignStart="@+id/textView144"
+                android:layout_alignRight="@+id/textView144"
+                android:layout_alignEnd="@+id/textView144"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+1 spell, ability, connection, or military skill"
+                android:id="@+id/textView144"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView145"
+                android:layout_alignLeft="@+id/textView145"
+                android:layout_alignStart="@+id/textView145"
+                android:layout_alignRight="@+id/textView145"
+                android:layout_alignEnd="@+id/textView145"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+2 occupational skills"
+                android:id="@+id/textView145"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView146"
+                android:layout_alignLeft="@+id/textView146"
+                android:layout_alignStart="@+id/textView146"
+                android:layout_alignRight="@+id/textView146"
+                android:layout_alignEnd="@+id/textView146"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+1 stat"
+                android:id="@+id/textView146"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView147"
+                android:layout_alignLeft="@+id/textView147"
+                android:layout_alignStart="@+id/textView147"
+                android:layout_alignRight="@+id/textView147"
+                android:layout_alignEnd="@+id/textView147"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+1 spell, ability, connection, or military skill"
+                android:id="@+id/textView147"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_alignLeft="@+id/textView132"
+                android:layout_alignStart="@+id/textView132"
+                android:layout_alignRight="@+id/textView132"
+                android:layout_alignEnd="@+id/textView132"
+                android:layout_below="@+id/textView148"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="55"
+                android:id="@+id/textView148"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView127"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView127"
+                android:layout_alignEnd="@+id/textView127"
+                android:layout_alignBottom="@+id/textView132" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="95"
+                android:id="@+id/textView151"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView152"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView152"
+                android:layout_alignEnd="@+id/textView152"
+                android:layout_alignBottom="@+id/textView140" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="90"
+                android:id="@+id/textView152"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView153"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView153"
+                android:layout_alignEnd="@+id/textView153"
+                android:layout_alignBottom="@+id/textView141" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="85"
+                android:id="@+id/textView153"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView154"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView154"
+                android:layout_alignEnd="@+id/textView154"
+                android:layout_alignBottom="@+id/textView142" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="80"
+                android:id="@+id/textView154"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView155"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView155"
+                android:layout_alignEnd="@+id/textView155"
+                android:layout_above="@+id/textView142" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="75"
+                android:id="@+id/textView155"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView156"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/textView144"
+                android:layout_toStartOf="@+id/textView144"
+                android:layout_alignBottom="@+id/textView144" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="70"
+                android:id="@+id/textView156"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView157"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView157"
+                android:layout_alignEnd="@+id/textView157"
+                android:layout_alignBottom="@+id/textView145" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="65"
+                android:id="@+id/textView157"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView158"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView158"
+                android:layout_alignEnd="@+id/textView158"
+                android:layout_alignBottom="@+id/textView146" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="60"
+                android:id="@+id/textView158"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_alignTop="@+id/textView147"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/textView147"
+                android:layout_toStartOf="@+id/textView147"
+                android:layout_alignBottom="@+id/textView147" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EPIC LEVEL"
+            android:id="@+id/textView173"
+            android:layout_gravity="center_horizontal"
+            android:textSize="22sp"
+            android:textColor="#ECEFF1"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="4dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:id="@+id/relativeLayout2"
+            android:gravity="center"
+            android:layout_marginBottom="25dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Xp Total"
+                android:id="@+id/textView133"
+                android:gravity="center"
+                android:background="#ff111313" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Character Advancement"
+                android:id="@+id/textView134"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/textView133"
+                android:gravity="center"
+                android:autoText="false"
+                android:background="#ff111313" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:id="@+id/textView135"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView133"
+                android:layout_alignRight="@+id/textView133"
+                android:layout_alignEnd="@+id/textView133"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_alignBottom="@+id/textView136" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+1 stat"
+                android:id="@+id/textView136"
+                android:layout_below="@+id/textView133"
+                android:layout_toRightOf="@+id/textView133"
+                android:layout_alignRight="@+id/textView134"
+                android:layout_alignEnd="@+id/textView134"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+2 occupational skills"
+                android:id="@+id/textView137"
+                android:layout_below="@+id/textView136"
+                android:layout_alignLeft="@+id/textView136"
+                android:layout_alignStart="@+id/textView136"
+                android:gravity="center"
+                android:layout_alignRight="@+id/textView134"
+                android:layout_alignEnd="@+id/textView134"
+                android:textSize="13sp"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:id="@+id/textView138"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView139"
+                android:layout_alignLeft="@+id/textView139"
+                android:layout_alignStart="@+id/textView139"
+                android:layout_alignRight="@+id/textView139"
+                android:layout_alignEnd="@+id/textView139"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:text="+2 occupational skills" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:id="@+id/textView174"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:background="@drawable/shape_race_section_number_bg"
+                android:text="+1 spell, ability, connection, or military skill"
+                android:layout_below="@+id/textView138"
+                android:layout_toRightOf="@+id/textView165"
+                android:layout_alignRight="@+id/textView138"
+                android:layout_alignEnd="@+id/textView138" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+1 archetype benefit"
+                android:id="@+id/textView139"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView149"
+                android:layout_alignLeft="@+id/textView149"
+                android:layout_alignStart="@+id/textView149"
+                android:layout_alignRight="@+id/textView149"
+                android:layout_alignEnd="@+id/textView149"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+1 stat"
+                android:id="@+id/textView149"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView150"
+                android:layout_alignLeft="@+id/textView150"
+                android:layout_alignStart="@+id/textView150"
+                android:layout_alignRight="@+id/textView150"
+                android:layout_alignEnd="@+id/textView150"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+1 spell, ability, connection, or military skill"
+                android:id="@+id/textView150"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView159"
+                android:layout_alignLeft="@+id/textView159"
+                android:layout_alignStart="@+id/textView159"
+                android:layout_alignRight="@+id/textView159"
+                android:layout_alignEnd="@+id/textView159"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+2 occupational skills"
+                android:id="@+id/textView159"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView160"
+                android:layout_alignLeft="@+id/textView160"
+                android:layout_alignStart="@+id/textView160"
+                android:layout_alignRight="@+id/textView160"
+                android:layout_alignEnd="@+id/textView160"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+1 stat"
+                android:id="@+id/textView160"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView161"
+                android:layout_alignLeft="@+id/textView161"
+                android:layout_alignStart="@+id/textView161"
+                android:layout_alignRight="@+id/textView161"
+                android:layout_alignEnd="@+id/textView161"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+1 spell, ability, connection, or military skill"
+                android:id="@+id/textView161"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_below="@+id/textView162"
+                android:layout_alignLeft="@+id/textView162"
+                android:layout_alignStart="@+id/textView162"
+                android:layout_alignRight="@+id/textView162"
+                android:layout_alignEnd="@+id/textView162"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="+1 archetype benefit or +1 career and +2 occupational skills"
+                android:id="@+id/textView162"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_alignLeft="@+id/textView137"
+                android:layout_alignStart="@+id/textView137"
+                android:layout_alignRight="@+id/textView137"
+                android:layout_alignEnd="@+id/textView137"
+                android:layout_below="@+id/textView163"
+                android:background="@drawable/shape_race_section_number_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="105"
+                android:id="@+id/textView163"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView135"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView135"
+                android:layout_alignEnd="@+id/textView135"
+                android:layout_alignBottom="@+id/textView137" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="145"
+                android:id="@+id/textView165"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView166"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView166"
+                android:layout_alignEnd="@+id/textView166"
+                android:layout_alignBottom="@+id/textView138" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="150"
+                android:id="@+id/textView23"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView138"
+                android:layout_alignLeft="@+id/textView165"
+                android:layout_alignStart="@+id/textView165"
+                android:layout_toLeftOf="@+id/textView138"
+                android:layout_toStartOf="@+id/textView138"
+                android:layout_alignBottom="@+id/textView174" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="140"
+                android:id="@+id/textView166"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView167"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView167"
+                android:layout_alignEnd="@+id/textView167"
+                android:layout_alignBottom="@+id/textView139" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="135"
+                android:id="@+id/textView167"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView168"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView168"
+                android:layout_alignEnd="@+id/textView168"
+                android:layout_alignBottom="@+id/textView149" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="130"
+                android:id="@+id/textView168"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView169"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView169"
+                android:layout_alignEnd="@+id/textView169"
+                android:layout_above="@+id/textView149" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="125"
+                android:id="@+id/textView169"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView170"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/textView159"
+                android:layout_toStartOf="@+id/textView159"
+                android:layout_alignBottom="@+id/textView159" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="120"
+                android:id="@+id/textView170"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView171"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView171"
+                android:layout_alignEnd="@+id/textView171"
+                android:layout_alignBottom="@+id/textView160" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="115"
+                android:id="@+id/textView171"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_below="@+id/textView172"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView172"
+                android:layout_alignEnd="@+id/textView172"
+                android:layout_alignBottom="@+id/textView161" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="110"
+                android:id="@+id/textView172"
+                android:gravity="center"
+                android:background="#ff111313"
+                android:layout_alignTop="@+id/textView162"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/textView162"
+                android:layout_toStartOf="@+id/textView162"
+                android:layout_alignBottom="@+id/textView162" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

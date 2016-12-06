@@ -1,0 +1,123 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.userdaniel.ironkingdoms.DialogFragments.CharacterInfoDialog"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffcdcdcd"
+        android:id="@+id/container1">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="CHARACTER"
+            android:id="@+id/textView186"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:background="#B7410E"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:id="@+id/textView188"
+            android:textColor="#515151"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText5"
+            android:textColor="#515151"
+            android:inputType="text|textNoSuggestions|textCapWords"
+            android:imeOptions="actionNext"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView190"
+            android:textColor="#515151"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:text="Race"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText6"
+            android:textColor="#515151"
+            android:inputType="text|textNoSuggestions|textCapWords"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:imeOptions="actionNext" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Careers"
+            android:id="@+id/textView244"
+            android:textColor="#515151"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText4"
+            android:textColor="#515151"
+            android:inputType="text|textNoSuggestions|textCapWords"
+            android:imeOptions="actionNext"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Archetype"
+            android:id="@+id/textView245"
+            android:textColor="#515151"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText7"
+            android:textColor="#515151"
+            android:inputType="text|textNoSuggestions|textCapWords"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:imeOptions="actionDone" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Validate"
+            android:id="@+id/button2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="action_bar_color">#DD2C00</color>
+    <color name="ColorPrimary">#FF3B30</color>
+    <color name="ColorPrimaryDark">#FF3B30</color>
+    <color name="listDivider">#272727</color>
+    <color name="background">#ffcdcdcd</color>
+    <color name="background_pressed">#ff9b9b9b</color>
+    <color name="dark_text">#515151</color>
+
+</resources>

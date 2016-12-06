@@ -1,0 +1,875 @@
+<resources>
+
+    <string name="app_name">Iron Kingdoms Database</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="launcher_name">Iron Kingdoms</string>
+    <string name="test">Hello from the caspian battle blade fragment, I just changed it</string>
+    <string name="test2">Hello from the blasting pike view bitch</string>
+    <string name="title_activity_characters">EH</string>
+    <string name="spinner_prompt">0</string>
+    <string name="character_menu">Character Menu</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Races</item>
+        <item>Careers</item>
+        <item>Armour</item>
+        <item>Melee Weapons</item>
+        <item>Ranged Weapons</item>
+        <item>Archetypes</item>
+        <item>Abilities</item>
+        <item>Spells</item>
+        <item>Skills</item>
+        <item>Ammunition</item>
+        <item>Clothing</item>
+        <item>Equipment</item>
+        <item>Mounts</item>
+        <item>Mechanika</item>
+        <item>Alchemy</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="races_items">
+        <item>Human</item>
+        <item>Dwarf</item>
+        <item>Gobber</item>
+        <item>Iosan</item>
+        <item>Nyss</item>
+        <item>Ogrun</item>
+        <item>Trollkin</item>
+        <item>Satyxis</item>
+    </string-array>
+
+    <string-array name="career_items">
+        <item>Alchemist</item>
+        <item>Allegiant</item>
+        <item>Arcane Mechanik</item>
+        <item>Arcane Mechanik, Vassal Of Menoth</item>
+        <item>Arcanist</item>
+        <item>Arcanist, Greylord</item>
+        <item>Arcanist, Illuminated</item>
+        <item>Arcanist, Maritime Order Of The Trident</item>
+        <item>Aristocrat</item>
+        <item>Artillerist</item>
+        <item>Assault Kommando</item>
+        <item>Bounty Hunter</item>
+        <item>Cutthroat</item>
+        <item>Doom Reaver</item>
+        <item>Duelist</item>
+        <item>Exemplar</item>
+        <item>Explorer</item>
+        <item>Fell Caller</item>
+        <item>Field Mechanik</item>
+        <item>Field Mechanik, Rhulic</item>
+        <item>Gun Mage</item>
+        <item>Gun Mage, Amethyst Rose</item>
+        <item>Gun Mage, Arcane Tempest</item>
+        <item>Guttersnipe</item>
+        <item>Highwayman</item>
+        <item>Horseman</item>
+        <item>Investigator</item>
+        <item>Iron Fang</item>
+        <item>Ironhead</item>
+        <item>Knight</item>
+        <item>Labor Korune</item>
+        <item>Mage Hunter</item>
+        <item>Man-At-Arms</item>
+        <item>Man-O-War</item>
+        <item>Military Officer</item>
+        <item>Paladin</item>
+        <item>Pirate</item>
+        <item>Pistoleer</item>
+        <item>Priest of Cyriss</item>
+        <item>Priest of Menoth</item>
+        <item>Priest of Morrow</item>
+        <item>Pugilist</item>
+        <item>Ranger</item>
+        <item>Reclaimer</item>
+        <item>Rifleman</item>
+        <item>Scrutator</item>
+        <item>Seaforge Trader</item>
+        <item>Seeker</item>
+        <item>Soldier</item>
+        <item>Soldier, Crucible Guard</item>
+        <item>Soldier, Marine</item>
+        <item>Sorcerer, Fire</item>
+        <item>Sorcerer, Ice</item>
+        <item>Sorcerer, Stone</item>
+        <item>Sorcerer, Storm</item>
+        <item>Spy</item>
+        <item>Stormblade</item>
+        <item>Stormsmith</item>
+        <item>Thamarite Advocate</item>
+        <item>Thief</item>
+        <item>Trencher</item>
+        <item>Urban Nomad</item>
+        <item>Warcaster</item>
+        <item>Warcaster, Cygnaran</item>
+        <item>Warcaster, Cyriss</item>
+        <item>Warcaster, Khadoran</item>
+        <item>Warcaster, Llael</item>
+        <item>Warcaster, Ordic</item>
+        <item>Warcaster, Protectorate</item>
+        <item>Warcaster, Rhulic</item>
+    </string-array>
+
+    <string-array name="armour_items">
+        <item>Alchemist\'s Leather</item>
+        <item>Armored Great Coat</item>
+        <item>Custom Battle Armor</item>
+        <item>Leather Armor</item>
+        <item>Chain Mail</item>
+        <item>Infantry Armor</item>
+        <item>Tailored Plate</item>
+        <item>Full Plate</item>
+        <item>Storm Knight Armor</item>
+    </string-array>
+
+    <string-array name="melee_items">
+        <item>Annihilator Blade</item>
+        <item>Assassin\'s Blade</item>
+        <item>Axe</item>
+        <item>Axe, great</item>
+        <item>Axe, horesman\'s</item>
+        <item>Bayonet</item>
+        <item>Blasting Lance</item>
+        <item>Blasting Pike</item>
+        <item>Blazing Sword</item>
+        <item>Blessed Lance</item>
+        <item>Caspian Battleblade</item>
+        <item>Club</item>
+        <item>Club, banded</item>
+        <item>Consecrated Halberd</item>
+        <item>Cutlass</item>
+        <item>Dagger</item>
+        <item>Dagger, poisoner\'s</item>
+        <item>Electro Lance</item>
+        <item>Fellblade</item>
+        <item>Firebrand</item>
+        <item>Flail</item>
+        <item>Flail, two-handed</item>
+        <item>Flame Spear</item>
+        <item>Gaff Spear</item>
+        <item>Garrote</item>
+        <item>Garrote, clockwork</item>
+        <item>Halberd</item>
+        <item>Ice Maul</item>
+        <item>Knuckledusters</item>
+        <item>Kopis</item>
+        <item>Lacerator</item>
+        <item>Lance</item>
+        <item>Mace</item>
+        <item>Maul</item>
+        <item>Mechanoflail</item>
+        <item>Nyss Claymore</item>
+        <item>Ogrun Warcleaver</item>
+        <item>Orgoth Staff</item>
+        <item>Pen, blade</item>
+        <item>Pen, poison</item>
+        <item>Pickaxe</item>
+        <item>Rapier</item>
+        <item>Reclaimant Torch</item>
+        <item>Relic Blade</item>
+        <item>Rynnish Fan</item>
+        <item>Shield</item>
+        <item>Shield, blast</item>
+        <item>Shield, combat</item>
+        <item>Spear</item>
+        <item>Springblade</item>
+        <item>Staff</item>
+        <item>Staff, battle</item>
+        <item>Stormcaller &amp; Lightning Rod</item>
+        <item>Sword</item>
+        <item>Sword Cane</item>
+        <item>Sword, dress</item>
+        <item>Sword, great</item>
+        <item>Telescoping Staff</item>
+        <item>Trench Knife</item>
+        <item>Trench Sword</item>
+        <item>Voltaic Halberd</item>
+        <item>War Hammer</item>
+    </string-array>
+
+    <string-array name="ranged_items">
+        <item>Axe, throwing</item>
+        <item>Blunderbuss</item>
+        <item>Bola</item>
+        <item>Bow</item>
+        <item>Bow, great</item>
+        <item>Bow, nyss</item>
+        <item>Cannon-Shield</item>
+        <item>Carbine</item>
+        <item>Crossbow</item>
+        <item>Crossbow, repeating</item>
+        <item>Grenade, concussion</item>
+        <item>Grenade, explosive</item>
+        <item>Grenade, smoke</item>
+        <item>Grenade, strangle gas</item>
+        <item>Gun Axe</item>
+        <item>Hand Cannon</item>
+        <item>Hand Cannon, dual</item>
+        <item>Harpoon Gun</item>
+        <item>Javelin</item>
+        <item>Knife, throwing</item>
+        <item>Ogrun Battle Cannon</item>
+        <item>Pistol</item>
+        <item>Pistol, holdout</item>
+        <item>Pistol, magelock</item>
+        <item>Pistol, repeating</item>
+        <item>Quad-iron</item>
+        <item>Radcliffe Carbine</item>
+        <item>Rifle, long</item>
+        <item>Rifle, heavy</item>
+        <item>Rifle, magelock</item>
+        <item>Rifle, military</item>
+        <item>Rifle, repeating</item>
+        <item>Rynnish walking stick</item>
+        <item>Scattergun</item>
+        <item>Sling</item>
+        <item>Slug gun</item>
+        <item>Sword-cannon, repeating</item>
+        <item>Sword-cannon, heavy</item>
+    </string-array>
+
+    <string-array name="archetypes_items">
+        <item>Gifted</item>
+        <item>Mighty</item>
+        <item>Skilled</item>
+        <item>Intellectual</item>
+    </string-array>
+
+    <string-array name="abilities_items">
+        <item>\'Jack Marshal</item>
+        <item>Abomination</item>
+        <item>Ace Commander</item>
+        <item>Acrobatics</item>
+        <item>Adaptable [Urban]</item>
+        <item>Adviser</item>
+        <item>Aegis</item>
+        <item>Always A Deal To Be Made</item>
+        <item>Ambush</item>
+        <item>Anatomical Precision</item>
+        <item>Appraise</item>
+        <item>Arcane Assassin</item>
+        <item>Arcane Defenses</item>
+        <item>Arcane Engineer</item>
+        <item>Arcane Precision</item>
+        <item>Arcane Scholar</item>
+        <item>Archer</item>
+        <item>Astute</item>
+        <item>Authority</item>
+        <item>Backstab</item>
+        <item>Battle Commander</item>
+        <item>Battle Plan: Call to Action</item>
+        <item>Battle Plan: Close Fire</item>
+        <item>Battle Plan: Coordinated Strike</item>
+        <item>Battle Plan: Desperate Pace</item>
+        <item>Battle Plan: Go to Ground</item>
+        <item>Battle Plan: Orchestrate Fire</item>
+        <item>Battle Plan: Reconnaissance</item>
+        <item>Battle Plan: Shadow</item>
+        <item>Bayonet Charge</item>
+        <item>Berserk</item>
+        <item>Big Game Hunter</item>
+        <item>Binding</item>
+        <item>Black Tongue</item>
+        <item>Blaster</item>
+        <item>Bloodlust</item>
+        <item>Blood Spiller</item>
+        <item>Bodge</item>
+        <item>Bodyguard</item>
+        <item>Bomber</item>
+        <item>Bond</item>
+        <item>Boarding Action</item>
+        <item>Brawler</item>
+        <item>Brew Master</item>
+        <item>Camouflage</item>
+        <item>Card Sharp</item>
+        <item>Cautious Advance</item>
+        <item>Calvary Charge</item>
+        <item>Chain Attack: Bleed Out</item>
+        <item>Chain Attack: Body Slam</item>
+        <item>Chain Attack: Pin Down</item>
+        <item>Chain Attack: Smite</item>
+        <item>Choir</item>
+        <item>Circular Vision</item>
+        <item>Cleave</item>
+        <item>Combat Rider</item>
+        <item>Communion</item>
+        <item>Conniver</item>
+        <item>Corrupter</item>
+        <item>Counter Offer</item>
+        <item>Cover Identity</item>
+        <item>Crackshot</item>
+        <item>Craft Rune Shot</item>
+        <item>Crossbowman</item>
+        <item>Dark Scribe</item>
+        <item>Defender</item>
+        <item>Defensive Line</item>
+        <item>Dig In</item>
+        <item>Disease Resistance</item>
+        <item>Dispel</item>
+        <item>Divine Fortitude</item>
+        <item>Dodger</item>
+        <item>Dominating Presence</item>
+        <item>Double Powder Ration</item>
+        <item>Drive: Ancillary Attack</item>
+        <item>Drive: Assault</item>
+        <item>Drive: Off Road</item>
+        <item>Drive: Pronto</item>
+        <item>Dual Shot</item>
+        <item>Electromancer</item>
+        <item>Elemental Mastery</item>
+        <item>Empower</item>
+        <item>Expert Rider</item>
+        <item>Eye Of The Storm</item>
+        <item>Fast Cook</item>
+        <item>Fast Draw</item>
+        <item>Fast Rearm</item>
+        <item>Fast Reload</item>
+        <item>Fearless</item>
+        <item>Fearsome Howl</item>
+        <item>Fell Call: Cacophony</item>
+        <item>Fell Call: Fell Call: Call of Defiance</item>
+        <item>Fell Call: Ground Shaker</item>
+        <item>Fell Call: Heroic Ballad</item>
+        <item>Fell Call: Reverberation</item>
+        <item>Fell Call: Signal Call</item>
+        <item>Fell Call: Sonic Blast</item>
+        <item>Field Alchemist</item>
+        <item>Field Marshal: Magical Attack</item>
+        <item>Field Marshal: Relentless Charge</item>
+        <item>Field Marshal: Shield Guard</item>
+        <item>Find Cover</item>
+        <item>Fire in the Hole!</item>
+        <item>Fist Of God</item>
+        <item>Flash Thief</item>
+        <item>Fleet Foot</item>
+        <item>Flesh Of Stell</item>
+        <item>Flying Fist</item>
+        <item>Free Style</item>
+        <item>Gang</item>
+        <item>Gatekeeper</item>
+        <item>Get Away</item>
+        <item>Ghost Shield</item>
+        <item>Girded</item>
+        <item>Good Breeding</item>
+        <item>Grappler</item>
+        <item>Grave Man</item>
+        <item>Great Power</item>
+        <item>Grenadier</item>
+        <item>Gunfighter</item>
+        <item>Hardened Strike</item>
+        <item>Haruspex</item>
+        <item>Head-Butt</item>
+        <item>Heave Ho</item>
+        <item>Hit Em\' Low</item>
+        <item>Hit The Deck!</item>
+        <item>Hulking Presence</item>
+        <item>Hyper Awareness</item>
+        <item>Imbue Weapon</item>
+        <item>Immunity: Cold</item>
+        <item>Immunity: Corrosion</item>
+        <item>Immunity: Electricity</item>
+        <item>Immunity: Fire</item>
+        <item>Imperishable Conviction</item>
+        <item>Impervious Wall Stance</item>
+        <item>Inscribe Formulae</item>
+        <item>Inscribe Thrall Rune</item>
+        <item>Instructor</item>
+        <item>Ironhead</item>
+        <item>Iron Sentinel</item>
+        <item>Iron Will</item>
+        <item>Keen Eyed</item>
+        <item>Language</item>
+        <item>Legacy of Bragg</item>
+        <item>Light Cavalry</item>
+        <item>Load Bearing</item>
+        <item>Lost in The Crowd</item>
+        <item>Low Breeding</item>
+        <item>Maestro</item>
+        <item>Mage Killer</item>
+        <item>Man Of Iron</item>
+        <item>Marksman</item>
+        <item>Mounted: Counter Charge</item>
+        <item>Natural Leader</item>
+        <item>Necromancer</item>
+        <item>Night Fighter</item>
+        <item>Oath Of Silence</item>
+        <item>Onslaught</item>
+        <item>Parry</item>
+        <item>Pathfinder</item>
+        <item>Perfect Timing</item>
+        <item>Poison Resistance</item>
+        <item>Port of Call</item>
+        <item>Power Of Truth</item>
+        <item>Precision Strike</item>
+        <item>Press the Attack</item>
+        <item>Privilege</item>
+        <item>Prowl</item>
+        <item>Pursuit</item>
+        <item>Quick Work</item>
+        <item>Rallying Cry</item>
+        <item>Reclaim</item>
+        <item>Reed In The Wind</item>
+        <item>Relentless Advance</item>
+        <item>Relentless Charge</item>
+        <item>Resourceful</item>
+        <item>Restoration</item>
+        <item>Retaliatory Strike</item>
+        <item>Return Fire</item>
+        <item>Ride-By Attack</item>
+        <item>Rock Solid</item>
+        <item>Roll With It</item>
+        <item>Runesmith</item>
+        <item>Saddle Shot</item>
+        <item>Sanguine Bond</item>
+        <item>Scoping It Out</item>
+        <item>Scorched Earth</item>
+        <item>Scrounge</item>
+        <item>Sentry</item>
+        <item>Serpent Strike</item>
+        <item>Set Defense</item>
+        <item>Shadow Magic</item>
+        <item>Shield Guard</item>
+        <item>Shield Slam</item>
+        <item>Shifting Sands Stance</item>
+        <item>Signal Language</item>
+        <item>Silence</item>
+        <item>Silver Tongued</item>
+        <item>Sniper</item>
+        <item>Soulstorm</item>
+        <item>Soul Taker</item>
+        <item>Soul Thief</item>
+        <item>Specialization</item>
+        <item>Steady</item>
+        <item>Steam Jockey</item>
+        <item>Steamo</item>
+        <item>Stone-And-Mortar Stance</item>
+        <item>Storm Booster</item>
+        <item>Strangler</item>
+        <item>Street Survivor</item>
+        <item>Sucker!</item>
+        <item>Swift Hunter</item>
+        <item>Swift Rider</item>
+        <item>Take Down</item>
+        <item>Targeteer</item>
+        <item>Team Leader</item>
+        <item>Team Player</item>
+        <item>Test The Wind</item>
+        <item>Torture</item>
+        <item>Traceless Path</item>
+        <item>Trained Rider</item>
+        <item>Trip</item>
+        <item>Truth Reader</item>
+        <item>Tune Up</item>
+        <item>Two-Weapon Fighting</item>
+        <item>University Education</item>
+        <item>Urcaen\'s Gate</item>
+        <item>Waylay</item>
+        <item>Weatherman</item>
+        <item>Weather Vane</item>
+        <item>Whispers of the Creator</item>
+        <item>Whirlwind</item>
+    </string-array>
+
+    <string-array name="spells_items">
+        <item>Admonition</item>
+        <item>Affliction</item>
+        <item>Annihilation</item>
+        <item>Arcane Blast</item>
+        <item>Arcane Bolt</item>
+        <item>Arcane Strike</item>
+        <item>Arcantrik Bolt</item>
+        <item>Ashen Cloud</item>
+        <item>Ashen Veil</item>
+        <item>Ashes to Ashes</item>
+        <item>Aura of Protection</item>
+        <item>Awareness</item>
+        <item>Banishing Ward</item>
+        <item>Barrier of Flames</item>
+        <item>Battering Ram</item>
+        <item>Batten Down the Hatches</item>
+        <item>Battle Rage</item>
+        <item>Black Out</item>
+        <item>Blade of Radiance</item>
+        <item>Blaze Of Glory</item>
+        <item>Blazing Effigy</item>
+        <item>Bleed</item>
+        <item>Blessing\'s of Health</item>
+        <item>Blessing of Morrow</item>
+        <item>Blessing\'s of War</item>
+        <item>Blizzard</item>
+        <item>Blow The Man Down</item>
+        <item>Blur</item>
+        <item>Bone Shaker</item>
+        <item>Boundless Charge</item>
+        <item>Brittle Frost</item>
+        <item>Broadside</item>
+        <item>Bullet Dodger</item>
+        <item>Buoyancy</item>
+        <item>Celerity</item>
+        <item>Chain Lightning</item>
+        <item>Chasten</item>
+        <item>Chiller</item>
+        <item>Cleansing Fire</item>
+        <item>Cloak Of Fear</item>
+        <item>Cloak Of Fire</item>
+        <item>Convection</item>
+        <item>Crevasse</item>
+        <item>Crusader\'s Call</item>
+        <item>Dark Fire</item>
+        <item>Daylight</item>
+        <item>Deadeye</item>
+        <item>Deadweight</item>
+        <item>Death Field</item>
+        <item>Deceleration</item>
+        <item>Deep Freeze</item>
+        <item>Devil\'s Tongue</item>
+        <item>Disruptor</item>
+        <item>Dominate Undead</item>
+        <item>Earthquake</item>
+        <item>Earth\'s Cradle</item>
+        <item>Earthsplitter</item>
+        <item>Electrical Blast</item>
+        <item>Electrify</item>
+        <item>Eliminator</item>
+        <item>Entangle</item>
+        <item>Entropic Force</item>
+        <item>Eye Of Menoth</item>
+        <item>Eyes of Truth</item>
+        <item>Exorcism</item>
+        <item>Extinguisher</item>
+        <item>Fail Safe</item>
+        <item>Far Winds</item>
+        <item>Fire Group</item>
+        <item>Fire Starter</item>
+        <item>Flames of Wrath</item>
+        <item>Flare</item>
+        <item>Fog of War</item>
+        <item>Force Field</item>
+        <item>Force Hammer</item>
+        <item>Force of Faith</item>
+        <item>Fortify</item>
+        <item>Fortune</item>
+        <item>Foxhole</item>
+        <item>Freezing Grip</item>
+        <item>Freezing Mist</item>
+        <item>Frozen Ground</item>
+        <item>Frostbite</item>
+        <item>Fuel the Flames</item>
+        <item>Full Throttle</item>
+        <item>Gallows</item>
+        <item>Ghost Shroud</item>
+        <item>Grave Whispers</item>
+        <item>Grind</item>
+        <item>Guided Blade</item>
+        <item>Hallowed Avenger</item>
+        <item>Hand of Fate</item>
+        <item>Heal</item>
+        <item>Heightened Reflexes</item>
+        <item>Hellfire</item>
+        <item>Hex Blast</item>
+        <item>Hex Hammer</item>
+        <item>Hoarfrost</item>
+        <item>Holy Ward</item>
+        <item>Hot Shot</item>
+        <item>Howling Flames</item>
+        <item>Hymn of Battle</item>
+        <item>Hymn of Passage</item>
+        <item>Hymn of Shielding</item>
+        <item>Ice Bolt</item>
+        <item>Ice Shield</item>
+        <item>Icy Grip</item>
+        <item>Ignite</item>
+        <item>Immolation</item>
+        <item>Infernal Machine</item>
+        <item>Inferno</item>
+        <item>Influence</item>
+        <item>Inhospitable Ground</item>
+        <item>Iron Aggression</item>
+        <item>Iron Flesh</item>
+        <item>Jackhammer</item>
+        <item>Jump Start</item>
+        <item>Lamentation</item>
+        <item>Light in the Darkness</item>
+        <item>Lightning Shroud</item>
+        <item>Lightning Tendrils</item>
+        <item>Locomotion</item>
+        <item>Mindlock</item>
+        <item>Mirage</item>
+        <item>Obliteration</item>
+        <item>Occulation</item>
+        <item>Overmind</item>
+        <item>Perdition</item>
+        <item>Phantasm</item>
+        <item>Polarity Shield</item>
+        <item>Positive Charge</item>
+        <item>Powder Keg</item>
+        <item>Power Charge</item>
+        <item>Prayer for Guidance</item>
+        <item>Protection from Cold</item>
+        <item>Protection from Corrosion</item>
+        <item>Protection from Electricity</item>
+        <item>Protection from Fire</item>
+        <item>Protector\'s Mark</item>
+        <item>Purification</item>
+        <item>Quickened</item>
+        <item>Raging Winds</item>
+        <item>Ravager</item>
+        <item>Razor Winds</item>
+        <item>Redline</item>
+        <item>Refuge</item>
+        <item>Return Fire</item>
+        <item>Rift</item>
+        <item>Righteous Flames</item>
+        <item>Rime</item>
+        <item>Rock Hammer</item>
+        <item>Rock Wall</item>
+        <item>Rune Shot: Accuracy</item>
+        <item>Rune Shot: Black Penny</item>
+        <item>Rune Shot: Brutal</item>
+        <item>Rune Shot: Detonator</item>
+        <item>Rune Shot: Disruption</item>
+        <item>Rune Shot: Earth Shaker</item>
+        <item>Rune Shot: Fire Beacon</item>
+        <item>Rune Shot: Freeze Fire</item>
+        <item>Rune Shot: Heart Stopper</item>
+        <item>Rune Shot: Iron Rot</item>
+        <item>Rune Shot: Molten Shot</item>
+        <item>Rune Shot: Momentum</item>
+        <item>Rune Shot: Phantom Seeker</item>
+        <item>Rune Shot: Piercer</item>
+        <item>Rune Shot: Shadow Fire</item>
+        <item>Rune Shot: Silencer</item>
+        <item>Rune Shot: Spell Cracker</item>
+        <item>Rune Shot: Spontaneous Combustion</item>
+        <item>Rune Shot: Thunderbolt</item>
+        <item>Rune Shot: Trick Shot</item>
+        <item>Sanguine Blessing</item>
+        <item>Sea of Fire</item>
+        <item>Sea Legs</item>
+        <item>Shatter Storm</item>
+        <item>Shield of Fath</item>
+        <item>Shock Wave</item>
+        <item>Short Out</item>
+        <item>Snipe</item>
+        <item>Solid Ground</item>
+        <item>Solovin\'s Boon</item>
+        <item>Soul Mark</item>
+        <item>Star Crossed</item>
+        <item>Star Fire</item>
+        <item>Staying Winter\'s Hand</item>
+        <item>Stone Stance</item>
+        <item>Stone Strength</item>
+        <item>Storm Tossed</item>
+        <item>Stygian Abyss</item>
+        <item>Sunburst</item>
+        <item>Superiority</item>
+        <item>Synergy</item>
+        <item>Telekinesis</item>
+        <item>Telgesh Mark</item>
+        <item>Temper Metal</item>
+        <item>Tempest</item>
+        <item>Tide of Steel</item>
+        <item>Tornado</item>
+        <item>Transference</item>
+        <item>Triage</item>
+        <item>True Path</item>
+        <item>True Sight</item>
+        <item>Twister</item>
+        <item>Vision</item>
+        <item>Voltaic Lock</item>
+        <item>Wall of Fire</item>
+        <item>Watcher</item>
+    </string-array>
+    <string-array name="skills_items">
+        <item>Alchemy</item>
+        <item>Animal Handling</item>
+        <item>Bribery</item>
+        <item>Climbing</item>
+        <item>Command</item>
+        <item>Craft</item>
+        <item>Cryptography</item>
+        <item>Deception</item>
+        <item>Detection</item>
+        <item>Disguise</item>
+        <item>Driving</item>
+        <item>Escape Artist</item>
+        <item>Etiquette</item>
+        <item>Fell Calling</item>
+        <item>Forensic Science</item>
+        <item>Forgery</item>
+        <item>Gambling</item>
+        <item>Interrogation</item>
+        <item>Intimidation</item>
+        <item>Jumping</item>
+        <item>Law</item>
+        <item>Lock Picking</item>
+        <item>Lore</item>
+        <item>Mechanikal Engineering</item>
+        <item>Medicine</item>
+        <item>Navigation</item>
+        <item>Negotiation</item>
+        <item>Oratory</item>
+        <item>Pickpocket</item>
+        <item>Research</item>
+        <item>Riding</item>
+        <item>Rope Use</item>
+        <item>Sailing</item>
+        <item>Seduction</item>
+        <item>Sneak</item>
+        <item>Steetwise</item>
+        <item>Survival</item>
+        <item>Swimming</item>
+        <item>Tracking</item>
+    </string-array>
+
+    <string-array name="ammunition_items">
+        <item>Ammo Wheel</item>
+        <item>Arrows or bolts(standard): Ten Shots</item>
+        <item>Arrows or bolts(explosive): One Shot</item>
+        <item>Arrows or bolts(grappler with rope): One Shot</item>
+        <item>Arrows(Great Bow): Five Shots</item>
+        <item>Ammo Bandolier</item>
+        <item>Grenadier\'s Bandolier</item>
+        <item>Bipod</item>
+        <item>Repeating Crossbow: Magazine</item>
+        <item>Heavy Firearm Ammunition: blasting powder bullets and paper casings for five rounds</item>
+        <item>Heavy Firearm Ammunition: blasting powder bullets and metal casings for five rounds</item>
+        <item>Light Firearm Ammunition: blasting powder bullets and paper casings for five rounds</item>
+        <item>Light Firearm Ammunition: blasting powder bullets and metal casings for five rounds</item>
+        <item>Shot Firearm Ammunition: one round</item>
+        <item>Slug Firearm Ammunition: blasting powder slug and casings for one round</item>
+        <item>Metal-Cased Firearm ammunition</item>
+        <item>Gun brace</item>
+        <item>Gunsmith\'s kit</item>
+        <item>Harpoon gun: blasting powder and five charges</item>
+        <item>Harpoon gun: additional grapple</item>
+        <item>Harpoon gun: additional harpoon</item>
+        <item>Holster</item>
+        <item>Wrist-Sprung Holster</item>
+        <item>Magelock pistol or rifle: one metal-cased round of rune shot ammunition</item>
+        <item>Ogrun battle cannon: one shell</item>
+        <item>Quiver</item>
+        <item>Scope(pistol or rifle)</item>
+        <item>Sling: twenty sling bullets</item>
+    </string-array>
+
+    <string-array name="other_items">
+        <item>Career Advancement Table</item>
+        <item>Injury Table</item>
+    </string-array>
+
+    <string-array name="bestiary_items">
+        <item>Argus, Common</item>
+        <item>Blighted Nyss Strider</item>
+        <item>Blighted Nyss Archer</item>
+        <item>Blighted Nyss Swordsman</item>
+        <item>Blighted Nyss Sorcerer</item>
+        <item>Alpha Burrow-Mawg</item>
+        <item>Burrow-Mawg</item>
+        <item>Bloat Thrall</item>
+        <item>Brute Thrall</item>
+        <item>Cataphract Beetle</item>
+        <item>Cephalyx</item>
+        <item>Cephalyx Mind Slaver</item>
+        <item>Cephalyx Overlord</item>
+        <item>Cephalyx Drudge</item>
+        <item>Cephalyx Monstrosity</item>
+        <item>Croak</item>
+        <item>Crypt Spider</item>
+        <item>Deathless</item>
+        <item>Devil Rats</item>
+        <item>Dracodile</item>
+        <item>Dragonspawn</item>
+        <item>Dread</item>
+        <item>Dregg Scavenger</item>
+        <item>Dregg Pain Monger</item>
+        <item>Dregg Raid Master</item>
+        <item>Duskwolf</item>
+        <item>Eldritch</item>
+        <item>Excruciator</item>
+        <item>Farrow Brigand</item>
+        <item>Farrow Slaughterhouser</item>
+        <item>Farrow Warlord</item>
+        <item>Farrow Shaman</item>
+        <item>Gorax</item>
+        <item>Grymkin, Grimlin</item>
+        <item>Hollowed</item>
+        <item>Hornbeak Trask</item>
+        <item>Human Thief</item>
+        <item>Human Thug</item>
+        <item>Human Watchman</item>
+        <item>Human Watchman #2</item>
+        <item>Human Arcanist</item>
+        <item>Iron Maiden</item>
+        <item>Lethean</item>
+        <item>Machine Wraith</item>
+        <item>Mechanithrall</item>
+        <item>Ogrun Bodyguard</item>
+        <item>Ogrun Marauder</item>
+        <item>Pistol Wraith</item>
+        <item>Raevhan Buffalo</item>
+        <item>Razorbat</item>
+        <item>Riven</item>
+        <item>Satyxis Raider Captain</item>
+        <item>Satyxis Raider</item>
+        <item>Satyxis Blood Witch</item>
+        <item>Scylla Flock</item>
+        <item>Sepulchral Lurker</item>
+        <item>Shade</item>
+        <item>Shaft Wright</item>
+        <item>Skigg</item>
+        <item>Skorne Venator</item>
+        <item>Skorne Praetorian</item>
+        <item>Skorne Mortitheurge</item>
+        <item>Skorne Tyrant</item>
+        <item>Soulhunter</item>
+        <item>Soul Stalker (Infernal)</item>
+        <item>Specter</item>
+        <item>Tatzylwurm, Black</item>
+        <item>Thrarn Ravager</item>
+        <item>Tharn Ravager Chieftain</item>
+        <item>Tharn Witch</item>
+        <item>Risen Thrall</item>
+        <item>Thrall Warrior</item>
+        <item>Thrullg</item>
+        <item>Totem Hunter</item>
+        <item>Troll Whelp</item>
+        <item>Troll, Common</item>
+        <item>Troll, Dire</item>
+        <item>Trollkin Fell Caller</item>
+        <item>Trollkin Warrior</item>
+        <item>Trollkin Champion</item>
+        <item>Vektiss</item>
+
+    </string-array>
+
+    <string-array name="parent_skills">
+        <item>Physique</item>
+        <item>Strength</item>
+        <item>Agility</item>
+        <item>Prowess</item>
+        <item>Poise</item>
+        <item>Intellect</item>
+        <item>Perception</item>
+        <item>Social</item>
+    </string-array>
+
+
+
+
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_character_menu">CharacterMenu</string>
+    <string name="title_activity_ability">AbilityActivity</string>
+
+</resources>

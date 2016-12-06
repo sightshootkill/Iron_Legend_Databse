@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arcane Bolt"
+        android:singleLine="false"
+        android:textSize="27sp"
+        android:textStyle="bold|italic"
+        android:textColor="#ECEFF1"
+        android:id="@+id/spellTitle"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ffcfd8dc"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cost 2"
+            android:id="@+id/costView"
+            android:layout_marginRight="5dp"
+            android:background="#32cfd8dc"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RNG 12"
+            android:id="@+id/rngView"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#14cfd8dc"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AOE ---"
+            android:id="@+id/aoeView"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#32cfd8dc"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="POW 11"
+            android:id="@+id/powView"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#14cfd8dc"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UP: NO"
+            android:id="@+id/upView"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#32cfd8dc"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OFF: YES"
+            android:id="@+id/offView"
+            android:layout_marginLeft="5dp"
+            android:background="#14cfd8dc"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Magical bolts of energy streak toward the target."
+        android:id="@+id/descriptionView"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:textColor="#B0BEC5" />
+</LinearLayout>
